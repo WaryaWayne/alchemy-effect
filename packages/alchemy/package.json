@@ -157,6 +157,12 @@
       "worker": "./src/Cloudflare/Live.ts",
       "import": "./lib/Cloudflare/Live.js"
     },
+    "./Cloudflare/Workers/*": {
+      "types": "./lib/Cloudflare/Workers/*.d.ts",
+      "bun": "./src/Cloudflare/Workers/*.ts",
+      "worker": "./src/Cloudflare/Workers/*.ts",
+      "import": "./lib/Cloudflare/Workers/*.js"
+    },
     "./Cloudflare/*": {
       "types": "./lib/Cloudflare/*/index.d.ts",
       "bun": "./src/Cloudflare/*/index.ts",
